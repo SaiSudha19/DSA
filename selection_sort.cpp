@@ -12,7 +12,7 @@ void selectSort(int arr[],int n)
             if(arr[j]<arr[min_ind])
             min_ind=j;
         }
-        swap(arr[m-----in_ind],arr[i]);
+        swap(arr[min_ind],arr[i]);
         
     }
     
